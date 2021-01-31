@@ -49,6 +49,7 @@ export default function Portfolio() {
             }
         >
             Kenny<span>C.</span>
+            <p>testing</p>
         </div>
     );
 }
