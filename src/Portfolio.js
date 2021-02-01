@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Portfolio.css';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
@@ -10,7 +9,7 @@ const useStyles = makeStyles({
         justifyContent: 'center',
         backgroundColor: '#5CDB95',
         color: '#EDF5E1',
-        fontSize: '8vw',
+        fontSize: '10vw',
         fontFamily: 'Helvetica',
         userSelect: 'none',
         '& span' : {
@@ -25,7 +24,7 @@ const useStyles = makeStyles({
         justifyContent: 'center',
         backgroundColor: '#5CDB95',
         color: '#05386B',
-        fontSize: '8vw',
+        fontSize: '10vw',
         fontFamily: 'Helvetica',
         userSelect: 'none',
         '& span' : {
