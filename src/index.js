@@ -5,5 +5,5 @@ import Portfolio from './Portfolio';
 
 ReactDOM.render(
     <Portfolio />,
-  document.getElementById('root')
+    document.getElementById('root')
 );

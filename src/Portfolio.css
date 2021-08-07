@@ -1,0 +1,47 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin:  auto;
+    padding: auto 0;
+    background-color: #5CDB95;
+    text-align: center;
+    font-family: 'Helvetica';
+}
+
+.poop h1 {
+    user-select: none;
+    margin: 0;
+    filter: drop-shadow(0 0 0.2rem crimson);
+}
+
+.myName {
+    margin: auto;
+    max-width: 40%;
+}
+
+.myName:hover {
+    animation:  rubberBand 1s;
+}
+
+@keyframes rubberBand {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    35% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    45% {
+        transform: scale3d(0.75, 1, 1);
+    }
+    60% {
+        transform: scale3d(1.2, .8, 1);
+    }
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
