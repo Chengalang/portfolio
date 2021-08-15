@@ -4,20 +4,16 @@ import './Portfolio.css';
 
 const useStyles = makeStyles({
     portfolioPrimary: {
-        color: '#EDF5E1',
-        fontSize: '10vw',
-        userSelect: 'none',
+        color: '#D9B08C',
         '& span' : {
-            color: '#05386B',
+            color: '#116466',
             paddingLeft: '0.2em',
         },
     },
     portfolioSecondary: {
-        color: '#05386B',
-        fontSize: '10vw',
-        userSelect: 'none',
+        color: '#116466',
         '& span' : {
-            color: '#EDF5E1',
+            color: '#D9B08C',
             paddingLeft: '0.2em',
         },
     },
@@ -39,15 +35,39 @@ export default function Portfolio() {
 
     return (
         <div component="button" class="portfolio" onClick={changeColor}>
-            <div className={fontColor}>
-                <div class="myName">
-                    Kenny<span>C.</span>
+            <section class="one">
+                <div className={fontColor}>
+                    <div class="myName">
+                        Kenny<span>C.</span>
+                    </div>
                 </div>
-            </div>
 
-            <div class="poop" onClick={movePoop}>
-                <h1>💩</h1>
-            </div>
+                <div class="asian-bow" onClick={movePoop}>
+                    <h1>👲🙏</h1>
+                </div>
+
+                <div class="box">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+
+            <section class="two">
+                <h1>PINEAPPLE</h1>
+            </section>
+
+            <section class="three">
+                <h1>GOES</h1>
+            </section>
+
+            <section class="four">
+                <h1>ON</h1>
+            </section>
+
+            <section class="five">
+                <h1>PIZZA</h1>
+            </section>
         </div>
     );
 }
