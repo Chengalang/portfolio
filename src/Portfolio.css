@@ -11,7 +11,6 @@
     user-select: none;
     margin: 0;
     margin-top: 25px;
-    filter: drop-shadow(0 0 0.2rem crimson);
     font-size: 2vw;
 }
 
@@ -84,6 +83,31 @@ section {
     100% {
         opacity: 0;
         transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+@media (max-width: 420px) {
+    .asian-bow h1 {
+        font-size: 8vw;
+    }
+    .one {
+        font-size: 15vw;
+    }
+    .two {
+        font-size: 6vw;
+    }
+    .three {
+        font-size: 6vw;
+    }
+    .four {
+        font-size: 6vw;
+    }
+    .five {
+        font-size: 6vw;
+    }
+    .box span {
+        width: 20px;
+        height: 20px;
     }
 }
 
