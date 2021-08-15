@@ -105,6 +105,9 @@ section {
     .five {
         font-size: 6vw;
     }
+    .box {
+        bottom: 8%;
+    }
     .box span {
         width: 20px;
         height: 20px;
